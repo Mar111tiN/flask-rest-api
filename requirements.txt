@@ -1,0 +1,4 @@
+Flask
+Flask-JWT
+Flask-SQLAlchemy
+uwsgi
