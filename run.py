@@ -1,5 +1,7 @@
 from app import app
 from db import db
+from models.item import ItemModel
+from models.store import StoreModel
 
 db.init_app(app)
 
