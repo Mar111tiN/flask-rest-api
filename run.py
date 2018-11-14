@@ -20,9 +20,11 @@ def create_tables():
         {"name": "MusixMaker"},
         {"name": "Toys4Us"}
     ]
-    for item in items:
-        it = ItemModel(**item)
-        it.save_to_db()
     for store in stores:
         new_store = StoreModel(**store)
         new_store.save_to_db()
+
+    for item in items:
+        it = ItemModel(**item)
+        it.save_to_db()
+
